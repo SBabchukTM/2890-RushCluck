@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class GAIDHelper : MonoBehaviour
 {
+    private const string DefaultGAID = "00000000-0000-0000-0000-000000000000";
+
     public static string GetGAID()
     {
 #if UNITY_EDITOR
@@ -12,7 +14,7 @@ public class GAIDHelper : MonoBehaviour
         if (Application.platform != RuntimePlatform.Android)
         {
             Log("⚠️ Platform not supported (need Android)");
-            return null;
+            return DefaultGAID;
         }
         
         try
@@ -22,12 +24,20 @@ public class GAIDHelper : MonoBehaviour
             using var adClient = new AndroidJavaClass("com.google.android.gms.ads.identifier.AdvertisingIdClient");
             using var info = adClient.CallStatic<AndroidJavaObject>("getAdvertisingIdInfo", activity);
 
-            return info.Call<string>("getId");
+            string gaid = info.Call<string>("getId");
+
+            if (string.IsNullOrEmpty(gaid))
+            {
+                Log("⚠️ GAID is null or empty");
+                return DefaultGAID;
+            }
+
+            return gaid;
         }
         catch (System.Exception e)
         {
             Log($"❌ Failed to fetch GAID: {e.Message}");
-            return null;
+            return DefaultGAID;
         }
     }
     
