@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16aa1b7b7f60ffc4088ae955fca4bb36, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  _spikesPoolSize: 40
+  _collectiblePoolSize: 25
+  _levelConfigs:
+  - {fileID: 11400000, guid: fbd7e47f142428a4f840f064858f3e76, type: 2}
+  - {fileID: 11400000, guid: c315d23c051d159478d90ae47f88e149, type: 2}
+  - {fileID: 11400000, guid: 382fa40e152ee5444873e5113d4b8e33, type: 2}
+  - {fileID: 11400000, guid: 696dbcc80b519834ea329b65835767ef, type: 2}
+  - {fileID: 11400000, guid: 23a211c2310b1294eba550ca0fb18b34, type: 2}
+  - {fileID: 11400000, guid: e3afa7c97834d1b449069f5caa3919b8, type: 2}
+  _collectibleReward: 1
+  _balloonSpawnPos: {x: 0, y: -8.5, z: 0}
+  _topLeftSpawnPos: {x: -7, y: 23, z: 0}
+  _bottomDespawnPos: {x: 0, y: -23, z: 0}

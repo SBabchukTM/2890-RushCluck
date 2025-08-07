@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f832290967324f03b8cdd3404245ab3f, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: 
+  Audio:
+  - Id: OpenPopup
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 0e197b153187c3143a5cc002be6a239d, type: 3}
+  - Id: OpenScreenSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 0e197b153187c3143a5cc002be6a239d, type: 3}
+  - Id: CloseScreenSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 0e197b153187c3143a5cc002be6a239d, type: 3}
+  - Id: ClosePopupSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 0e197b153187c3143a5cc002be6a239d, type: 3}
+  - Id: PressActiveButtonSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 356c255892589bf44ad11b7ea580782b, type: 3}
+  - Id: PressNotActiveButtonSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 356c255892589bf44ad11b7ea580782b, type: 3}
+  - Id: PressButtonSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 356c255892589bf44ad11b7ea580782b, type: 3}
+  - Id: Music
+    AudioType: 0
+    Clip: {fileID: 8300000, guid: ab2cc9a9c04496849b6cbc44be169c08, type: 3}
+  - Id: DisplaySound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 0e197b153187c3143a5cc002be6a239d, type: 3}
+  - Id: ErrorSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 431ebd4a929896f429cea28c5345848d, type: 3}
+  - Id: PurchaseSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 1dbd99b742fde7c4ba953ac884616626, type: 3}
+  - Id: SelectSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 1dbd99b742fde7c4ba953ac884616626, type: 3}
+  - Id: CoinSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: 2ab2478db43b2c148913b2a9aa16858e, type: 3}
+  - Id: PopSound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: ed617d7b9f4d104418598b04e72548db, type: 3}
+  - Id: VictorySound
+    AudioType: 1
+    Clip: {fileID: 8300000, guid: ec3081c8fdbab3d4296b5ad729976eba, type: 3}

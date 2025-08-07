@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34657b44249e99f42b6e71404347582f, type: 3}
+  m_Name: ShopItemsConfig
+  m_EditorClassIdentifier: 
+  _shopItems:
+  - {fileID: 11400000, guid: 5d681a3c8fdd8d447812af90b2d82cdd, type: 2}
+  - {fileID: 11400000, guid: b5f2f4896234ff04b830c3bec142754d, type: 2}
+  - {fileID: 11400000, guid: 5d27b71fe28f0fa448a9aa68bf004186, type: 2}
+  - {fileID: 11400000, guid: 2ebb926e6a2ea514f99683e668801110, type: 2}
+  _purchaseEffectSettings:
+    PlaySoundOnPurchase: 1
+    PlaySoundOnSelectPurchased: 1
+    PlaySoundOnNotEnoughCurrency: 1
+    ShakeIfNotEnoughCurrency: 1
+    PurchaseFailedShakeParameters:
+      ShakeDuration: 0.2
+      Strength: 20
+      Vibrato: 100
+      Randomness: 90
+      Snapping: 0
+      FadeOut: 1
+      ShakeRandomnessMode: 1
