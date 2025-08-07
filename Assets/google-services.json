@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "466865007884",
+    "project_id": "rushcluck",
+    "storage_bucket": "rushcluck.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466865007884:android:8fae8ce266f78f988e6d29",
+        "android_client_info": {
+          "package_name": "com.adakami.dana.kredit.pinjam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8cy6g_ohSGY9ZvBfsjIIPhDMSVZTSHZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
