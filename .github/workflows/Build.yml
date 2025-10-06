@@ -16,7 +16,7 @@ jobs:
         targetPlatform:
           - Android # Build an Android .apk standalone app.
         sdkVersion:
-          - AndroidApiLevel34
+          - AndroidApiLevel35
     steps:
       ###########################
       #          Disk           #
